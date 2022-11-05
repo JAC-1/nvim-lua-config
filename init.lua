@@ -1,0 +1,7 @@
+require "jc.options"
+require "jc.keybindings"
+require "jc.plugins"
+require "jc.colorscheme"
+require "jc.comment"
+require "jc.nvimtree"
+require "jc.cmp"
