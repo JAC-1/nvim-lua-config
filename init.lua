@@ -9,4 +9,7 @@ require "jc.lsp"
 require "jc.treesitter"
 require "jc.project"
 require "jc.telescope"
+require "jc.toggleterm"
+require "jc.autocmds"
 -- require "jc.startup"
+--

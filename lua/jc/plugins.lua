@@ -78,12 +78,23 @@ return packer.startup(function(use)
   use "nvim-treesitter/nvim-treesitter"
 
 	-- Git
+  -- nvim v0.7.2
+  use({
+      "kdheepak/lazygit.nvim",
+      -- optional for floating window border decoration
+      requires = {
+          "nvim-lua/plenary.nvim",
+      },
+  })
   
   -- Project
   use "ahmedkhalf/project.nvim"
   use "startup-nvim/startup.nvim"
 
-
+  -- Terminal
+  use {"akinsho/toggleterm.nvim", tag = '*', config = function()
+    require("toggleterm").setup()
+  end}
 	-- Automatically set up your configuration after cloning packer.nvim
 	-- Put this at the end after all plugins
 	if PACKER_BOOTSTRAP then

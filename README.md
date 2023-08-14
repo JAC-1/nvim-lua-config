@@ -2,7 +2,7 @@
 
 <i>WARNING: This was made last year and some plugins/settings maybe depreciated.</i>
 
-## Instalation
+## Instalation 
 
 1. Install lua-language-server : `brew install lua-language-server`
 2. Create a `/nvim` folder in `.config`
