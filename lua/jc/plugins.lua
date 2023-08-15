@@ -56,6 +56,9 @@ return packer.startup(function(use)
   use 'hrsh7th/cmp-path'
   use 'hrsh7th/cmp-cmdline'
   use 'hrsh7th/nvim-cmp'
+  use 'dcampos/cmp-emmet-vim'
+  use 'mattn/emmet-vim'
+  use 'windwp/nvim-autopairs'
 
 	-- Snippets
   use 'L3MON4D3/LuaSnip' -- Snippet engine

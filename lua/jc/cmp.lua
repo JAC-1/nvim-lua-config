@@ -113,6 +113,7 @@ cmp.setup {
     { name = "luasnip" },
     { name = "buffer" },
     { name = "path" },
+    { name = "emmet_vim"},
   },
   confirm_opts = {
     behavior = cmp.ConfirmBehavior.Replace,

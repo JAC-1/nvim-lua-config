@@ -18,14 +18,4 @@ null_ls.setup({
 	},
 })
 
--- Auto-save --
--- local filetypes = {"*.tsx", "*.css", "*.js", "*.jsx", "*.ts"}
--- for _, filetypes in ipairs(filetypes) do 
---   vim.api.nvim_create_autocmd({
---     event = "BufWritePre",
---     pattern = filetypes,
---     group = "format_on_save",
---     cmd = "lua vim.lsp.buf.format()"
---   })
--- end
 

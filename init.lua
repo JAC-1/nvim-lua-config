@@ -11,5 +11,6 @@ require "jc.project"
 require "jc.telescope"
 require "jc.toggleterm"
 require "jc.autocmds"
+require "jc.autopairs"
 -- require "jc.startup"
 --
