@@ -56,8 +56,6 @@ return packer.startup(function(use)
   use 'hrsh7th/cmp-path'
   use 'hrsh7th/cmp-cmdline'
   use 'hrsh7th/nvim-cmp'
-  use 'dcampos/cmp-emmet-vim'
-  use 'mattn/emmet-vim'
   use 'windwp/nvim-autopairs'
 
 	-- Snippets
@@ -79,6 +77,7 @@ return packer.startup(function(use)
 
 	-- Treesitter
   use "nvim-treesitter/nvim-treesitter"
+  use "windwp/nvim-ts-autotag"
 
 	-- Git
   -- nvim v0.7.2
