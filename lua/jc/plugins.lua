@@ -42,13 +42,16 @@ packer.init({
 return packer.startup(function(use)
 
   use "numToStr/Comment.nvim" -- Comment hotkey
-  use "kyazdani42/nvim-tree.lua" -- Tree explorer
   use "wbthomason/packer.nvim" -- Packer manager
   use "nvim-lua/plenary.nvim" -- Package that is required by quite a few plugins
 
 	-- Colorschemes
   use "folke/tokyonight.nvim"
   use "lunarvim/darkplus.nvim"
+
+  -- Nvim-Tree
+  use "kyazdani42/nvim-tree.lua" -- Tree explorer
+  use "nvim-tree/nvim-web-devicons"
 
 	-- Cmp 
   use 'hrsh7th/cmp-nvim-lsp'

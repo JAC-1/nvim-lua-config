@@ -9,7 +9,7 @@
 3. Clone this repo
 4. Link the repo to `.config/nvim`
 ```bash
-ln -s ~/nvim-lua-config/lua .config/nvim/lua && ln -s ~/nvim-lua-config/README.md .config/nvim/README.md &&  ln -s ~/nvim-lua-config/init.lua .config/nvim/init.lua
+ln -s ~/nvim-lua-config/lua ~/.config/nvim/lua && ln -s ~/nvim-lua-config/README.md ~/.config/nvim/README.md &&  ln -s ~/nvim-lua-config/init.lua ~/.config/nvim/init.lua
 ```
 6. Open and save `nvim .config/nvim/lua/jc/plugin.lua` to auto install plugins
 8. Close and reopen to allow tree sitter to install
